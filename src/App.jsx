@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from './components/NavBar/NavBar'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
+import Contador from './components/Contador/Contador'
 
 
 
@@ -9,6 +10,8 @@ const App = () => {
     <>
       <NavBar/>
       <ItemListContainer greeting="Nuestros Productos"/>
+      <Contador></Contador>
+      
 
 
     </>

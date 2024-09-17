@@ -1,0 +1,16 @@
+.contenedorItemDetail{
+    text-align: center;
+    border: 1px solid black;
+    margin: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img{
+    width: 30vw;
+}
+
+p{
+    font-size: 20px;
+}

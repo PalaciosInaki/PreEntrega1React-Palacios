@@ -35,7 +35,7 @@ const productos = [
         img: '../public/images/s-l1200.jpg',
     },
     {
-        nombre: "Modulo RAM KINGSTON 16GB RGB",
+        nombre: "RAM KINGSTON 16GB",
         id: 6,
         descripcion: "Memoria ram kingston 3200mhz",
         precio: 200,
@@ -48,6 +48,16 @@ export const getProductos = () => {
     return new Promise((resolve) =>{
         setTimeout(() => {
             resolve(productos)
+        }, 2000);
+    })
+}
+
+
+export const getUnProd = (id) => {
+    return new Promise((resolve) =>{
+        setTimeout(() => {
+            const producto = productos.find(item => item.id === id)
+            resolve(producto)
         }, 2000);
     })
 }

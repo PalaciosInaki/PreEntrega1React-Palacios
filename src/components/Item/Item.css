@@ -1,0 +1,24 @@
+.cardProducto{
+    width: 350px;
+    height: 485px;
+    text-align: center;
+    padding: 0%;
+    margin-left: 40px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    background: white;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+    cursor: pointer;
+}
+
+.cardProducto img{
+    max-width: 333px;
+    height: 280px;
+}
+
+.cardProducto:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%); 
+}

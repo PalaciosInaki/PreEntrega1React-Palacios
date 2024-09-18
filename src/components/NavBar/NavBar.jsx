@@ -7,7 +7,8 @@ const NavBar = () => {
   return (
     <div>
         <header className="navbar bg-primary border-bottom border-body" data-bs-theme="dark">
-            <h1>Bamboo PC</h1>
+
+            <Link to="/"><h1>Bamboo PC</h1></Link>
             <nav>
                 <ul>
                     <li>

@@ -29,7 +29,7 @@ const manejadorCantidad = (cantidad) => {
         <h3>{nombre}</h3>
         <p>{descripcion}</p>
         <h3>Precio: {precio}</h3>
-        <p>ID : {id}</p>
+        <p>Stock : {stock}</p>
 
         {
 
